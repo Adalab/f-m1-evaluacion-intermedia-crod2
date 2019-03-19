@@ -56,14 +56,18 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    font-size: 30px;  
+}
+    
+.section__main-title {
     color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
     text-transform: capitalize;
-    width: 210vh; 
+    width: 200px; 
 }
 
 @media all and (min-width: 768px) {
-    .section__main {
+    .section__main-title {
         font-size: 40px;
     }
 }    
