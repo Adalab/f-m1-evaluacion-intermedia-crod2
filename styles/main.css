@@ -40,6 +40,18 @@
     padding: 10px;
 }
 
+@media all and (min-width: 768px) {
+    .header {
+        padding: 20px 30px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        box-sizing: border-box; 
+    }
+}
+
+
+
 .section__main {
     text-align: center
     color: #FFFFFF;
@@ -48,31 +60,7 @@
 }
 
 
-
 @media all and (min-width: 768px) {
-    ul {
-        font-size: 16px;
-    }
-
     #principal__section {
         font-size: 40px;
     }
-
-    header {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .logo {
-        padding: 20px 30px 20px 0;
-        padding-left: 30px;
-    }
-
-    .header__menu {
-        padding-right: 30px;
-        display: flex; 
-        justify-content: center;
-        align-items: center; 
-    }
-}
-
