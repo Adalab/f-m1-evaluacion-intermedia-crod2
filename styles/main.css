@@ -1,8 +1,6 @@
 .page {
     font-family: 'Rubik', sans-serif;
     margin: 0;
-    background-color: #3CDBC0;
-    padding: 200px;
 }
 
 /* HEADER */
@@ -50,17 +48,21 @@
     }
 }
 
-
+/*MAIN*/
 
 .section__main {
-    text-align: center
+    height: 100vh;
+    background-color: #3CDBC0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 30px;  
     color: #FFFFFF;
-    text-align: center;
-    font-size: 30px;
+    text-transform: capitalize; 
 }
 
-
 @media all and (min-width: 768px) {
-    #principal__section {
+    .section__main {
         font-size: 40px;
     }
+}    
