@@ -58,7 +58,8 @@
     align-items: center; 
     font-size: 30px;  
     color: #FFFFFF;
-    text-transform: capitalize; 
+    text-transform: capitalize;
+    width: 210vh; 
 }
 
 @media all and (min-width: 768px) {
